@@ -4,5 +4,10 @@ ne = int(input('Escribe un número entero: '))
 while ne <= 0:
     ne = int(input('Escribe un número entero POSITIVO: '))
 
-for i in range(ne):
-    print(nu)
+
+print((nu +'\n') * ne)
+
+
+##Otra forma es: 
+##for i in range(ne):
+##    print(nu)
